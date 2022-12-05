@@ -1,0 +1,23 @@
+#include "stdio.h"
+int main(){
+	// Bai tap
+	printf("Nhap diem cua hoc sinh tu 0 den 10 ");
+	float a; // a la diem so cua hoc sinh
+	printf("\na =  "); // a la diem so cua hoc sinh
+	scanf("\n%f", &a);
+    // Truong hop 1
+    if(a<=10 && a>=9){
+    	printf("\n Hoc sinh xuat sac", a);
+	}else if(a<=9 && a>=8){
+		printf("\n Hoc sinh gioi", a);
+	}else if(a<=8 && a>=7){
+		printf("\n Hoc sinh kha", a);
+	}else if(a<=7 && a>=6){
+		printf("\n Hoc trung binh kha", a);
+	}else if(a<=6 && a>=5){
+		printf("\n Hoc sinh trung binh", a);
+	}else {
+		printf("\n Hoc sinh yeu", a);
+	}
+
+}
