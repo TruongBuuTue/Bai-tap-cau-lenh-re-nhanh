@@ -1,0 +1,12 @@
+#include "stdio.h"
+int main(){
+	// Bai tap nhap vao so nguyen bat ki va hien thi thong bao so do la chan hay le
+	int a;
+	printf("Nhap vao a = "); // a la so nguyen bat ki
+	scanf("%d", &a);
+	// Hien thi a la so chan hay so le
+	if (a%2==0){
+		printf("%d la so chan", a);
+	}else{
+		printf("%d la so le", a);
+	}
